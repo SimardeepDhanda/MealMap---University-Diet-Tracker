@@ -1,0 +1,9 @@
+# Alembic Migrations
+
+To create a new migration after changing models:
+
+alembic revision --autogenerate -m "Describe change"
+
+To apply migrations:
+
+alembic upgrade head 
